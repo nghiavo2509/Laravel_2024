@@ -1,0 +1,41 @@
+
+.nav-bar .contain{
+    display: grid;
+    grid-template-columns: 130px auto max-content;
+    .logo{
+        // text-align: center;
+        img{
+            width: 50px;
+            border-radius: 10px;
+        }
+    }
+    .menu{
+        .items{
+            font-size: 16px;
+            display: flex;
+            list-style-type: none;
+            justify-content: space-around;
+            li{
+                a{
+                    text-decoration: none;
+                    color: #2E475D;
+                    font-weight: 500;
+                }
+                .login{
+                    background: #0984e3;
+                    color: #fff;
+                    padding: 10px 17px;
+                    border-radius: 5px;
+                    font-weight: 500;
+                    user-select: none;
+                }
+                .login:hover{
+                    cursor: pointer;
+                }
+            }
+            li:hover{
+                opacity: .8;
+            }
+        }
+    }
+}

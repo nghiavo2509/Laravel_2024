@@ -1,0 +1,70 @@
+
+body {
+    font-family: "Lexend Deca", sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+    font-size: 15px;
+    line-height: 23px;
+    background: #f8f8f8;
+    color: rgba(0, 0, 0, .87);
+    min-height: 101vh;
+}
+
+div{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    margin: 0 0 50px 0;
+}
+.wrapper .head{
+    background: #EFF1F4;
+    padding: 20px;
+}
+
+.main{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.main .left-side{
+    width: 800px;
+}
+.left-side .content{
+    display: flex;
+}
+.left-side .news-feed .post h3{
+    margin: 0;
+    font-size: 16px;
+}
+.left-side .news-feed .post a{
+    color: #2E475D;
+    text-decoration: none;
+    font-weight: 400;
+}
+.left-side .content .left .post img{
+    height: 340px;
+    width: 100%;
+    max-width: 100%;
+    border-radius: 3px;
+}
+.left-side .content .left{
+    flex-shrink: 1;
+    padding-right: 20px;
+}
+.left-side .content .left h3{
+    font-size: 22px;
+}
+.left-side .content .right{
+    flex-shrink: 2;
+}
+.left-side .content .right .post{
+    margin-bottom: 20px;
+}
+.left-side .content .right .post img{
+    height: 150px;
+    width: 100%;
+    max-width: 100%;
+    border-radius: 3px;
+}
