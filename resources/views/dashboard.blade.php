@@ -26,6 +26,9 @@
                     @include('frontend/home')
                 </div>
             </div>
+            <div class="footer">
+                @include('components/footer')
+            </div>
         </div>
     </body>
 </html>
